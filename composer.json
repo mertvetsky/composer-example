@@ -1,0 +1,21 @@
+{
+  "name": "mertvetsky/composer-example",
+  "description": "Simple example",
+  "type": "project",
+  "require": {
+    "php": ">=5.5",
+    "symfony/var-dumper": "3.2"
+  },
+  "authors": [
+    {
+      "name": "Alexandr Sayapin",
+      "email": "mertvetsky@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Mertvetsky\\ComposerExample\\": "src"
+    }
+  }
+}
